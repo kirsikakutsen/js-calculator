@@ -1,0 +1,38 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/background.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin: 3%;
+    font-size: 130%;
+}
+
+.actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1%;
+    gap: 4%;
+    margin-top: 5%;
+}
+
+button {
+    font-size: 130%;
+}
